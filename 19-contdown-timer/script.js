@@ -16,8 +16,7 @@ input.addEventListener('change', readDay);
 function readDay(e) {
     const date = e.target.value.split('-');
     final = `${date[1]} ${date[2]} ${date[0]}`;
-    console.log(final)
-
+    
     countdown();
 }
 
